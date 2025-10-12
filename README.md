@@ -1,11 +1,24 @@
 # 🚀 CodeEveryday — My Road to DSA Mastery
 
 Welcome to my **#CodeEveryday-DSA** repository!  
-Here, I document my daily progress in mastering Data Structures and Algorithms — one problem at a time 💻🔥
+Here, I document my daily progress in mastering **Data Structures and Algorithms** — one problem at a time 💻🔥  
 
 ---
 
 ## 📅 Daily Progress
+
+### 🧩 Day 1 — Stack and Queue
+- **Languages:** Python 🐍  
+- **Concepts Used:** Stack, Queue, Implementation using each other  
+- **Files:**
+  - [Stack_using_Queue.py](./Day1_Stack_and_Queue/Stack_using_Queue.py)
+  - [Queue_using_Stack.py](./Day1_Stack_and_Queue/Queue_using_Stack.py)
+- **What I Learned:**
+  - How to simulate **stack operations using a queue**.  
+  - How to build a **queue using stacks**.  
+  - Understanding **data structure interdependence**.  
+
+---
 
 ### 🧩 Day 2 — Next Greater Element II
 - **Languages:** Python 🐍 | Java ☕  
@@ -14,18 +27,15 @@ Here, I document my daily progress in mastering Data Structures and Algorithms �
 - **My Solutions:**
   - [NextGreaterElementII.py](./Day2_Next_Greater_Element_II/NextGreaterElementII.py)
   - [NextGreaterElementII.java](./Day2_Next_Greater_Element_II/NextGreaterElementII.java)
-
----
-
-### 🧠 What I Learned
-- How to handle **circular arrays** efficiently.  
-- Using a **stack** to track the next greater elements.  
-- Implementing **binary search** for optimization and comparisons.  
+- **What I Learned:**
+  - How to handle **circular arrays** efficiently.  
+  - Using a **stack** to find next greater elements.  
+  - Applied **binary search** for additional optimization.  
 
 ---
 
 ### 💡 My Goal
-> Solve one DSA problem every day — no excuses, just consistency.
+> Solve one DSA problem every day — no excuses, just consistency.  
 
 ---
 

@@ -30,9 +30,20 @@ Here, I document my daily progress in mastering **Data Structures and Algorithms
 - **What I Learned:**
   - How to handle **circular arrays** efficiently.  
   - Using a **stack** to find next greater elements.  
-  - Applied **binary search** for additional optimization.  
+  - Applied **binary search** for additional optimization.
+   
 
 ---
+## 🗓️ Day 3 — Sum of Subarray Minimums
+**Problem Solved:** Sum of Subarray Minimums  
+**Concepts:** Monotonic Stack, Subarray Contribution, Modulo Arithmetic  
+**Languages:** Python, Java  
+**Link:** [Day3_Sum_of_Subarray_Minimums](./Day3_Sum_of_Subarray_Minimums)  
+**What I Learned:**
+- How every element contributes as minimum in some subarrays by counting how far left and right it can extend.
+- Use a monotonic increasing stack to compute those extents in O(n).
+- Handle very large sums and mod `10^9 + 7`.
+
 
 ### 💡 My Goal
 > Solve one DSA problem every day — no excuses, just consistency.  

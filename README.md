@@ -44,6 +44,30 @@ Here, I document my daily progress in mastering **Data Structures and Algorithms
 - Use a monotonic increasing stack to compute those extents in O(n).
 - Handle very large sums and mod `10^9 + 7`.
 
+## 🗓️ Day 4 — Remove K Digits
+**Problem Solved:** 402. Remove K Digits  
+**Concepts:** Monotonic Stack, Greedy Approach, String Manipulation  
+**Languages:** Python, Java  
+**Link:** [Day4_Remove_K_Digits](./Day4_Remove_K_Digits)  
+**What I Learned:**
+- Used a monotonic increasing stack to remove digits greedily and form the smallest number.
+- Ensured no leading zeros in the resulting number.
+- If `k` remained after traversal, removed digits from the end of the stack.
+- Learned how greedy logic combined with stack operations achieves an optimal O(n) solution.
+
+---
+
+## 🗓️ Day 5 — Asteroid Collision
+**Problem Solved:** 735. Asteroid Collision  
+**Concepts:** Stack Simulation, Sign-Based Collisions, Iterative Elimination  
+**Languages:** Python  
+**Link:** [Day5_Asteroid_Collision](./Day5_Asteroid_Collision)  
+**What I Learned:**
+- Used a stack to simulate asteroid motion and handle collisions efficiently.
+- Compared directions using sign (+ → right, − → left) to detect collisions.
+- Managed multiple collisions using nested popping logic until stability was achieved.
+- Strengthened understanding of stack-based simulation problems.
+
 
 ### 💡 My Goal
 > Solve one DSA problem every day — no excuses, just consistency.  

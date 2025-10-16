@@ -69,6 +69,37 @@ Here, I document my daily progress in mastering **Data Structures and Algorithms
 - Strengthened understanding of stack-based simulation problems.
 
 
+# 🚀 Day 6 – Binary Subarrays With Sum
+
+**Problem:**  
+Given a binary array `nums` and an integer `goal`, return the number of non-empty subarrays with a sum equal to `goal`.
+
+📘 **LeetCode Link:** [Binary Subarrays With Sum (#930)](https://leetcode.com/problems/binary-subarrays-with-sum/)
+
+---
+
+## 💡 Approach
+
+We use the **two-pointer sliding window technique** to count:
+1. Subarrays with sum ≤ goal  
+2. Subarrays with sum ≤ goal−1  
+The difference between these two gives the exact number of subarrays with sum = goal.
+
+---
+
+## 🧠 Intuition
+Instead of recalculating sums repeatedly, we maintain a window that expands and shrinks based on the number of 1s encountered.
+
+---
+
+## 🧮 Time Complexity
+- **O(n)** – Single traversal using two pointers  
+- **O(1)** – Constant extra space
+
+
+---
+
+
 ### 💡 My Goal
 > Solve one DSA problem every day — no excuses, just consistency.  
 

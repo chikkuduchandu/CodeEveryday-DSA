@@ -100,6 +100,21 @@ Instead of recalculating sums repeatedly, we maintain a window that expands and 
 ---
 
 
+
+## 🗓️ Day 7 — Number of Substrings Containing All Three Characters
+**Problem Solved:** Number of Substrings Containing All Three Characters  
+**Concepts:** Sliding Window, HashMap, Substring Counting  
+**Languages:** Python, Java  
+**Link:** [Day7_Number_of_Substrings_Containing_All_Three_Characters](./Day7_Number_of_Substrings_Containing_All_Three_Characters)  
+**What I Learned:**
+- Applied **sliding window** with two pointers and frequency tracking.  
+- Used the formula `count(at most k) - count(at most k-1)` to find substrings with exactly 3 distinct characters.  
+- Optimized brute-force substring checking from **O(n²)** to **O(n)**.  
+- Strengthened understanding of **window shrinking and character frequency management**.
+
+---
+
+
 ### 💡 My Goal
 > Solve one DSA problem every day — no excuses, just consistency.  
 

@@ -114,6 +114,20 @@ Instead of recalculating sums repeatedly, we maintain a window that expands and 
 
 ---
 
+## 🗓️ Day 8 — Subarrays with K Distinct Integers
+**Problem Solved:** Subarrays with K Distinct Integers  
+**Concepts:** Sliding Window, HashMap / Frequency Map, Two Pointer Technique  
+**Languages:** Python, Java  
+**Link:** [Day8_Subarrays_With_K_Distinct_Integers](./Day8_Subarrays_With_K_Distinct_Integers)  
+
+**What I Learned:**
+- Solved using the idea:  
+  `count(at most K distinct) - count(at most (K-1) distinct) = count(exactly K distinct)`  
+- Maintained a dynamic window and adjusted `p2` when unique elements exceeded `k`.  
+- Used HashMap / Dictionary to efficiently track element counts within O(n) time.  
+- Strengthened understanding of sliding window logic for frequency-based problems.
+
+---
 
 ### 💡 My Goal
 > Solve one DSA problem every day — no excuses, just consistency.  

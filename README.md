@@ -129,6 +129,18 @@ Instead of recalculating sums repeatedly, we maintain a window that expands and 
 
 ---
 
+## 🗓️ Day 9 — Count Number of Nice Subarrays
+**Problem Solved:** Count Number of Nice Subarrays  
+**Concepts:** Sliding Window, Two Pointers, Subarray Counting  
+**Languages:** Python, Java  
+**Link:** [Day9_Count_Number_of_Nice_Subarrays](./Day9_Count_Number_of_Nice_Subarrays)  
+
+**What I Learned:**
+- How to count subarrays with *exactly K* odd numbers using the difference of two “at most K” subarray counts.  
+- Sliding window efficiently maintains dynamic ranges that meet the condition.  
+- Key formula:  
+---
+
 ### 💡 My Goal
 > Solve one DSA problem every day — no excuses, just consistency.  
 

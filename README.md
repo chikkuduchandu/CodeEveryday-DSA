@@ -141,6 +141,20 @@ Instead of recalculating sums repeatedly, we maintain a window that expands and 
 - Key formula:  
 ---
 
+
+# 🚀 Day 10: Combination Sum
+
+## Problem
+Given an array of distinct integers `candidates` and a target integer `target`, return all unique combinations of `candidates` where the chosen numbers sum to `target`. The same number may be chosen multiple times.
+
+## Approach
+- Used recursion and backtracking to generate all valid combinations.
+- If the current sum equals the target → store the current list.
+- If it exceeds → backtrack.
+- Continue exploring both include/exclude paths.
+
+---
+
 ### 💡 My Goal
 > Solve one DSA problem every day — no excuses, just consistency.  
 

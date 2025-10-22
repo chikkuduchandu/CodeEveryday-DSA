@@ -155,6 +155,21 @@ Given an array of distinct integers `candidates` and a target integer `target`, 
 
 ---
 
+
+## 🗓️ Day 12 — Word Search
+**Problem Solved:** Word Search (LeetCode #79)  
+**Concepts:** DFS, Backtracking, Matrix Traversal, Recursion  
+**Languages:** Python  
+**Link:** [Day12_Word_Search](./Day12_Word_Search)  
+
+**What I Learned:**
+- Implemented a depth-first search (DFS) with backtracking to explore all possible paths.  
+- Learned how to efficiently track visited cells using a set to avoid revisiting.  
+- Handled boundary conditions and recursion termination carefully.  
+- Improved problem-solving skills for grid-based word traversal challenges.
+
+---
+
 ### 💡 My Goal
 > Solve one DSA problem every day — no excuses, just consistency.  
 

@@ -155,6 +155,25 @@ Given an array of distinct integers `candidates` and a target integer `target`, 
 
 ---
 
+🗓️ Day 11 — Combination Sum II
+
+Problem Solved: Combination Sum II
+Concepts: Backtracking, Recursion, Sorting, Duplicate Handling
+Languages: Python, Java
+Link: Day11_Combination_Sum_II
+
+What I Learned:
+
+Used sorting and skipping duplicates to avoid generating the same combination twice.
+
+Improved pruning logic by stopping early when the current candidate exceeds the target.
+
+Understood the difference between Combination Sum I (reuse allowed) and Combination Sum II (each number used once).
+
+Gained deeper insight into recursive search tree optimization.
+
+---
+
 
 ## 🗓️ Day 12 — Word Search
 **Problem Solved:** Word Search (LeetCode #79)  

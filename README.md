@@ -189,6 +189,20 @@ Gained deeper insight into recursive search tree optimization.
 
 ---
 
+
+## 🗓️ Day 13 — Combination Sum III  
+**Problem Solved:** 216. Combination Sum III  
+**Concepts:** Recursion, Backtracking, Combinatorics  
+**Languages:** Python, Java  
+**Link:** [Day13_Combination_Sum_III](./Day13_Combination_Sum_III)  
+**What I Learned:**  
+- Used recursion with backtracking to explore all valid combinations of numbers from 1–9.  
+- Ensured the combination length equals `k` and the sum equals `n` before adding to the result.  
+- Pruned unnecessary recursive calls when the sum exceeded `n` or length exceeded `k`.  
+- Gained deeper insight into parameter tracking and base condition handling in recursive calls.  
+
+---
+
 ### 💡 My Goal
 > Solve one DSA problem every day — no excuses, just consistency.  
 

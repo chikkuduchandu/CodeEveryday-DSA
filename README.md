@@ -203,6 +203,19 @@ Gained deeper insight into recursive search tree optimization.
 
 ---
 
+
+## 🗓️ Day 17 — Remove N-th Node From End of Linked List  
+**Problem Solved:** 19. Remove N-th Node From End of List  
+**Concepts:** Linked List, Two Pointers, One Pass Technique  
+**Languages:** Python  
+**Link:** [Day17_Remove_Nth_Node_From_End](./Day17_Remove_Nth_Node_From_End)  
+**What I Learned:**  
+- Used the two-pointer technique (fast & slow) with a fixed gap to locate the N-th node from the end. :contentReference[oaicite:0]{index=0}  
+- Handled edge cases when removing the head of the list by checking when the fast pointer reaches `None`.  
+- Achieved an optimal solution in O(n) time and O(1) space.  
+
+---
+
 ### 💡 My Goal
 > Solve one DSA problem every day — no excuses, just consistency.  
 

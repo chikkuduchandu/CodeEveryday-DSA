@@ -216,6 +216,20 @@ Gained deeper insight into recursive search tree optimization.
 
 ---
 
+## 🗓️ Day 18 — Delete the Middle of a Linked List
+**Problem Solved:** 2095. Delete the Middle Node of a Linked List  
+**Concepts:** Fast & Slow Pointers, Linked List Traversal, Dummy Node  
+**Languages:** Python, Java  
+**Link:** [Day18_Delete_Middle_of_LinkedList](./Day18_Delete_Middle_of_LinkedList)  
+**What I Learned:**
+- Used two-pointer technique (fast and slow) to locate the middle node efficiently.
+- Introduced a dummy node to simplify edge cases (like single-node lists).
+- The slow pointer always moves once for every two steps of the fast pointer.
+- When fast pointer reaches the end, the slow pointer points just before the middle node.
+- Deleted the middle node by adjusting pointers: `s.next = s.next.next`.
+- This approach runs in **O(n)** time and uses **O(1)** space.
+---
+
 ### 💡 My Goal
 > Solve one DSA problem every day — no excuses, just consistency.  
 

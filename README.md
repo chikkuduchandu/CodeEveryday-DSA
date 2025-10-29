@@ -230,6 +230,24 @@ Gained deeper insight into recursive search tree optimization.
 - This approach runs in **O(n)** time and uses **O(1)** space.
 ---
 
+## 🗓️ Day 19 — Intersection of Two Linked Lists
+**Problem Solved:** 160. Intersection of Two Linked Lists  
+**Concepts:** Two Pointers, Linked List Traversal, Pointer Swapping  
+**Languages:** Python, Java  
+**Link:** [Day19_Intersection_of_Two_LinkedLists](./Day19_Intersection_of_Two_LinkedLists)  
+
+**What I Learned:**
+- Applied the **two-pointer technique** to find the intersection efficiently.  
+- When one pointer reaches the end, it switches to the other list — ensuring both cover equal distance.  
+- Achieved an elegant **O(n)** time and **O(1)** space complexity solution.  
+- Strengthened understanding of **linked list synchronization** and **pointer manipulation**.
+
+**Special Thanks:**  
+Thanks to **Striver** for his insightful explanation that simplified the logic behind this elegant approach!
+
+
+---
+
 ### 💡 My Goal
 > Solve one DSA problem every day — no excuses, just consistency.  
 

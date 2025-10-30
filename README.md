@@ -248,6 +248,28 @@ Thanks to **Striver** for his insightful explanation that simplified the logic b
 
 ---
 
+
+## 🧩 Day 20 — Beauty Sum of a String
+
+**Languages:** Python 🐍 & Java ☕  
+**Concepts Used:** Substrings, Frequency Count, HashMap / Dictionary  
+
+### 📁 Files
+- beauty_sum.py  
+- beauty_sum.java  
+
+### 📖 What I Learned
+- Iterated through **all possible substrings** using nested loops.  
+- Used **HashMap/Dictionary** to maintain character frequencies dynamically.  
+- Computed beauty as **(max frequency - min frequency)** for each substring.  
+- Strengthened understanding of **string manipulation and frequency analysis**.  
+- Huge thanks to **Striver** for his detailed DSA explanations and consistent guidance 🙏  
+
+### 🚀 Day 20 Complete!
+Keep pushing forward — one DSA problem a day 💪🔥
+
+---
+
 ### 💡 My Goal
 > Solve one DSA problem every day — no excuses, just consistency.  
 

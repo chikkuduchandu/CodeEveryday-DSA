@@ -269,6 +269,19 @@ Thanks to **Striver** for his insightful explanation that simplified the logic b
 Keep pushing forward — one DSA problem a day 💪🔥
 
 ---
+## ⚙️ Day 21 — Smallest Divisor Given a Threshold
+**Problem Solved:** 1283. Smallest Divisor Given a Threshold  
+**Concepts Used:** Binary Search, Math (Ceiling Division), Optimization  
+**Language:** Python 🐍  
+**Link:** [Day21_Smallest_Divisor_Given_Threshold](./Day21_Smallest_Divisor_Given_Threshold)  
+
+**What I Learned:**
+- Applied **binary search on answer space** to find the smallest divisor efficiently.  
+- Used `math.ceil()` to simulate ceiling division while checking sum constraints.  
+- Understood how to optimize brute-force search problems using **binary search on results**.  
+- Practiced handling **integer bounds** and **edge conditions** effectively.
+
+---
 
 ### 💡 My Goal
 > Solve one DSA problem every day — no excuses, just consistency.  

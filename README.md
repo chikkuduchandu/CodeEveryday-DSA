@@ -283,6 +283,17 @@ Keep pushing forward — one DSA problem a day 💪🔥
 
 ---
 
+### 🧩 Day 22 — Minimum Number of Days to Make m Bouquets
+- **Language:** Python 🐍  
+- **Concepts Used:** Binary Search on Answer · Greedy Checking Function · Arrays  
+- **Files:**  
+  - [minDays.py](./Day22_Minimum_Number_of_Days_to_Make_m_Bouquets/minDays.py)  
+- **What I Learned:**  
+  - How to apply **binary search over a range of possible answers** (days) instead of array indices.  
+  - Designed a helper function `check()` to validate if flowers can form `m` bouquets given a day limit.  
+  - Balanced between **feasibility checking** and **search optimization** for efficient results.  
+---
+
 ### 💡 My Goal
 > Solve one DSA problem every day — no excuses, just consistency.  
 

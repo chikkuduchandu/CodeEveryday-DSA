@@ -294,6 +294,21 @@ Keep pushing forward — one DSA problem a day 💪🔥
   - Balanced between **feasibility checking** and **search optimization** for efficient results.  
 ---
 
+### 🧩 Day 23 — Koko Eating Bananas 🍌
+- **Languages:** Python 🐍  
+- **Concepts Used:** Binary Search on Answer, Math.ceil for time calculation  
+- **Files:**
+  - [Koko_Eating_Bananas.py](./Day23_Koko_Eating_Bananas/Koko_Eating_Bananas.py)
+- **What I Learned:**
+  - How to apply **binary search on the speed (answer space)** instead of array indices.
+  - Using **ceil division** to calculate hours taken for each pile.
+  - Realized that when searching for the minimum feasible value, always **move `maxi = mid - 1`** when a valid answer is found.
+  - Time complexity improved to **O(n log maxPile)**.
+- **Problem Link:**  
+  🔗 [LeetCode 875 — Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
+
+---
+
 ### 💡 My Goal
 > Solve one DSA problem every day — no excuses, just consistency.  
 

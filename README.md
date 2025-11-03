@@ -309,6 +309,26 @@ Keep pushing forward — one DSA problem a day 💪🔥
 
 ---
 
+### 🧩 Day 24 — Split Array Largest Sum
+- **Language:** Python 🐍  
+- **Problem:** Split Array Largest Sum (LeetCode #410)  
+- **Concepts Used:** Binary Search on Answer · Array Partitioning · Greedy Validation  
+
+#### 🧠 What I Learned:
+- Applied binary search to minimize the largest subarray sum.
+- Designed a `check()` function to validate if array can be split into ≤ k subarrays under a given max sum.
+- Improved efficiency using greedy approach for partitioning.
+- Reinforced the concept of binary search on the answer space.
+
+#### 📘 Code File:
+- [split_array_largest_sum.py](./Day24_Split_Array_Largest_Sum/split_array_largest_sum.py)
+
+#### 🔗 GitHub Link:
+[Day24_Split_Array_Largest_Sum](https://github.com/chikkuduchandu/CodeEveryday-DSA/tree/main/Day24_Split_Array_Largest_Sum)
+
+
+---
+
 ### 💡 My Goal
 > Solve one DSA problem every day — no excuses, just consistency.  
 

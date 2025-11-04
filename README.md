@@ -329,6 +329,25 @@ Keep pushing forward — one DSA problem a day 💪🔥
 
 ---
 
+## 🌳 Day 25 — Binary Tree Level Order Traversal
+**Problem Solved:** LeetCode 102 — Binary Tree Level Order Traversal  
+**Language:** Python 🐍  
+**Concepts Used:** Queue (BFS), Tree Traversal, Collections Deque  
+
+### 📂 Files:
+- [level_order_traversal.py](./Day25_Binary_Tree_Level_Order_Traversal/level_order_traversal.py)
+
+### 💡 What I Learned:
+- Applied **Breadth-First Search (BFS)** to traverse a binary tree level by level.
+- Used **collections.deque** for efficient queue operations (`append()` and `popleft()`).
+- Learned how to track **nodes per level** by looping `len(q)` times per level.
+- Deepened understanding of **tree traversal patterns** and **queue-based iteration**.
+
+### 📘 Problem Link:
+🔗 [LeetCode 102 — Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+
+---
+
 ### 💡 My Goal
 > Solve one DSA problem every day — no excuses, just consistency.  
 

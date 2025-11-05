@@ -343,28 +343,26 @@ Keep pushing forward — one DSA problem a day 💪🔥
 - Learned how to track **nodes per level** by looping `len(q)` times per level.
 - Deepened understanding of **tree traversal patterns** and **queue-based iteration**.
 
-### 📘 Problem Link:
-🔗 [LeetCode 102 — Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+
 
 ---
-
-## 🌿 Day 26 — Binary Tree Inorder Traversal
-**Problem Solved:** LeetCode 94 — Binary Tree Inorder Traversal  
+## 🌲 Day 26 — Diameter of Binary Tree
+**Problem Solved:** LeetCode 543 — Diameter of Binary Tree  
 **Language:** Python 🐍  
-**Concepts Used:** Stack (Iterative Traversal), Binary Tree, Depth-First Search (DFS)  
+**Concepts Used:** Binary Tree, Recursion, Depth Calculation, Postorder Traversal  
 
 ### 📂 Files:
-- [inorder_traversal.py](./Day26_Binary_Tree_Inorder_Traversal/inorder_traversal.py)
+- [diameter_of_binary_tree.py](./Day26_Diameter_of_Binary_Tree/diameter_of_binary_tree.py)
 
 ### 💡 What I Learned:
-- Implemented **Inorder Traversal (Left → Root → Right)** using an **iterative stack approach**.  
-- Simulated recursion manually by maintaining an explicit stack for DFS.  
-- Strengthened understanding of how recursion is mirrored in iterative traversal.  
-- Improved problem-solving skills for **tree traversal patterns** and iterative DFS logic.  
-- Achieved **O(N)** time complexity with **O(H)** space (H = height of tree)
+- Computed the **diameter** of a binary tree using a single recursive traversal.  
+- Applied **postorder recursion (Left → Right → Root)** to calculate the depth of subtrees.  
+- Utilized a **tuple return `(max_depth, diameter)`** to eliminate the need for global variables.  
+- Achieved **O(N)** time complexity — visiting each node exactly once.  
+- Strengthened understanding of **recursive tree depth propagation** and **divide-and-conquer** logic.
 
 
----
+
 
 
 ### 💡 My Goal

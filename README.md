@@ -348,6 +348,25 @@ Keep pushing forward — one DSA problem a day 💪🔥
 
 ---
 
+## 🌿 Day 26 — Binary Tree Inorder Traversal
+**Problem Solved:** LeetCode 94 — Binary Tree Inorder Traversal  
+**Language:** Python 🐍  
+**Concepts Used:** Stack (Iterative Traversal), Binary Tree, Depth-First Search (DFS)  
+
+### 📂 Files:
+- [inorder_traversal.py](./Day26_Binary_Tree_Inorder_Traversal/inorder_traversal.py)
+
+### 💡 What I Learned:
+- Implemented **Inorder Traversal (Left → Root → Right)** using an **iterative stack approach**.  
+- Simulated recursion manually by maintaining an explicit stack for DFS.  
+- Strengthened understanding of how recursion is mirrored in iterative traversal.  
+- Improved problem-solving skills for **tree traversal patterns** and iterative DFS logic.  
+- Achieved **O(N)** time complexity with **O(H)** space (H = height of tree)
+
+
+---
+
+
 ### 💡 My Goal
 > Solve one DSA problem every day — no excuses, just consistency.  
 

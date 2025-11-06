@@ -362,7 +362,23 @@ Keep pushing forward — one DSA problem a day 💪🔥
 - Strengthened understanding of **recursive tree depth propagation** and **divide-and-conquer** logic.
 
 
+---
+## ⚡ Day 27 — Binary Tree Maximum Path Sum
+**Problem Solved:** LeetCode 124 — Binary Tree Maximum Path Sum  
+**Language:** Python 🐍  
+**Concepts Used:** Binary Tree, Recursion, Postorder Traversal, Path Sum  
 
+### 📂 Files:
+- [maximum_path_sum.py](./Day27_Binary_Tree_Maximum_Path_Sum/maximum_path_sum.py)
+
+### 💡 What I Learned:
+- Computed the **maximum path sum** in a binary tree using **postorder recursion**.  
+- Learned to return two values from recursion:
+  1. **Downward path sum** (the best path continuing through the current node).
+  2. **Maximum path sum** (the best path anywhere in the subtree).  
+- Understood how to handle **negative node values** and avoid incorrect paths.  
+- Strengthened recursive problem-solving skills for **divide-and-conquer** tree algorithms.  
+- Achieved **O(N)** time complexity — each node is visited exactly once.
 
 
 ### 💡 My Goal

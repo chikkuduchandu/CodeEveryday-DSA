@@ -380,6 +380,21 @@ Keep pushing forward — one DSA problem a day 💪🔥
 - Strengthened recursive problem-solving skills for **divide-and-conquer** tree algorithms.  
 - Achieved **O(N)** time complexity — each node is visited exactly once.
 
+## 🌪️ Day 28 — Binary Tree Zigzag Level Order Traversal
+**Problem Solved:** LeetCode 103 — Binary Tree Zigzag Level Order Traversal  
+**Language:** Python 🐍  
+**Concepts Used:** Binary Tree, Level Order Traversal, Two Stacks, Zigzag Traversal  
+
+### 📂 Files:
+- [zigzag_level_order_traversal.py](./Day28_Binary_Tree_Zigzag_Level_Order_Traversal/zigzag_level_order_traversal.py)
+
+### 💡 What I Learned:
+- Implemented **Zigzag Level Order Traversal** using **two stacks** to alternate traversal direction at each level.  
+- Used a **flag variable** to track left-to-right or right-to-left direction and switched after each level.  
+- Learned how **stack-based level order traversal** can simulate both BFS and DFS behavior.  
+- Achieved **O(N)** time complexity with **O(H)** space, where *H* is the tree height.  
+- Strengthened problem-solving skills in **Binary Tree traversal variations**.
+
 
 ### 💡 My Goal
 > Solve one DSA problem every day — no excuses, just consistency.  

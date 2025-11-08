@@ -395,7 +395,27 @@ Keep pushing forward — one DSA problem a day 💪🔥
 - Achieved **O(N)** time complexity with **O(H)** space, where *H* is the tree height.  
 - Strengthened problem-solving skills in **Binary Tree traversal variations**.
 
+---
+## 🌳 Day 29 — Same Tree
+**Problem Solved:** LeetCode 100 — Same Tree  
+**Language:** Python 🐍  
+**Concepts Used:** Binary Tree, Recursion, Depth-First Search (DFS), Tree Comparison  
 
+### 📂 Files:
+- [same_tree.py](./Day29_Same_Tree/same_tree.py)
+
+### 💡 What I Learned:
+- Determined if two binary trees are **identical** in both structure and node values.  
+- Implemented a clean **recursive DFS** approach to check equality of each corresponding node.  
+- Handled all edge cases:
+  - Both nodes `None` ✅
+  - One node `None` and the other not ❌
+  - Node values mismatch ❌  
+- Strengthened understanding of **recursive traversal logic** and **base case design**.  
+- Achieved **O(N)** time complexity and **O(H)** space complexity, where *H* is the tree height.
+
+
+---
 ### 💡 My Goal
 > Solve one DSA problem every day — no excuses, just consistency.  
 

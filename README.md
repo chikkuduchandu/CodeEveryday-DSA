@@ -416,6 +416,29 @@ Keep pushing forward — one DSA problem a day 💪🔥
 
 
 ---
+
+
+
+## 🌤️ Day 30 — Binary Tree Right Side View
+**Problem Solved:** LeetCode 199 — Binary Tree Right Side View  
+**Language:** Python 🐍  
+**Concepts Used:** Binary Tree, Breadth-First Search (BFS), Queue Traversal  
+
+### 📂 Files:
+- [right_side_view.py](./Day30_Binary_Tree_Right_Side_View/right_side_view.py)
+
+### 💡 What I Learned:
+- Implemented **Right Side View** of a binary tree using **level order traversal (BFS)**.  
+- Captured the **last node** of each level to represent the node visible from the right side.  
+- Used **`collections.deque`** for efficient queue operations (`append()` and `popleft()`).  
+- Learned how to track **levels** during BFS to extract specific view perspectives of a binary tree.  
+- Achieved **O(N)** time complexity by visiting each node exactly once.
+
+### 📘 Problem Link:
+🔗 [LeetCode 199 — Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
+
+
+--
 ### 💡 My Goal
 > Solve one DSA problem every day — no excuses, just consistency.  
 

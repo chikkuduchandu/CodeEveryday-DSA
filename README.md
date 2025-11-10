@@ -438,7 +438,26 @@ Keep pushing forward — one DSA problem a day 💪🔥
 🔗 [LeetCode 199 — Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
 
 
---
+---
+
+## 🌿 Day 31 — Lowest Common Ancestor of a Binary Tree
+**Problem Solved:** LeetCode 236 — Lowest Common Ancestor of a Binary Tree  
+**Language:** Python 🐍  
+**Concepts Used:** Binary Tree, Recursion, Path Tracking, Tree Traversal  
+
+### 📂 Files:
+- [lowest_common_ancestor.py](./Day31_Lowest_Common_Ancestor_of_Binary_Tree/lowest_common_ancestor.py)
+
+### 💡 What I Learned:
+- Implemented the **Lowest Common Ancestor (LCA)** using a **path-tracking approach**.  
+- Found paths from the root to both target nodes (`p` and `q`) and compared them to identify the **last common node**.  
+- Strengthened understanding of **binary tree traversal**, **recursive path construction**, and **common ancestor detection**.  
+- Learned how to handle base cases effectively for both `None` nodes and exact target matches.  
+- Achieved **O(N)** time complexity by traversing the tree twice and **O(H)** space for path storage, where *H* is the height of the tree.
+
+### 📘 Problem Link:
+🔗 [LeetCode 236 — Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+---
 ### 💡 My Goal
 > Solve one DSA problem every day — no excuses, just consistency.  
 

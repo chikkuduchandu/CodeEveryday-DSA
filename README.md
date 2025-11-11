@@ -463,5 +463,25 @@ Keep pushing forward — one DSA problem a day 💪🔥
 
 ---
 
+## 🌲 Day 32 — Balanced Binary Tree
+**Problem Solved:** LeetCode 110 — Balanced Binary Tree  
+**Language:** Python 🐍  
+**Concepts Used:** Binary Tree, Depth-First Search (DFS), Recursion, Height Calculation  
+
+### 📂 Files:
+- [balanced_binary_tree.py](./Day32_Balanced_Binary_Tree/balanced_binary_tree.py)
+
+### 💡 What I Learned:
+- Implemented an efficient **single-pass DFS** to check if a binary tree is height-balanced.  
+- Used a **pair return pattern** — `(isBalanced, height)` — to avoid redundant height calculations.  
+- Learned how to propagate **boolean and numeric results together** through recursion.  
+- Gained deeper understanding of **postorder traversal** (processing children before parent).  
+- Achieved **O(N)** time complexity by visiting each node exactly once and **O(H)** space due to recursion depth.
+
+### 📘 Problem Link:
+🔗 [LeetCode 110 — Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
+
+---
+
 ### 🏁 Follow My Journey
 📂 Repository: [CodeEveryday-DSA](https://github.com/chikkuduchandu/CodeEveryday-DSA)

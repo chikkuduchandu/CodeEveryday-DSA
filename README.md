@@ -483,5 +483,28 @@ Keep pushing forward — one DSA problem a day 💪🔥
 
 ---
 
+## 🌿 Day 33 — Search in a Binary Search Tree
+**Problem Solved:** LeetCode 700 — Search in a Binary Search Tree  
+**Language:** Python 🐍  
+**Concepts Used:** Binary Search Tree (BST), Recursion, Tree Traversal  
+
+### 📂 Files:
+- [search_in_bst.py](./Day33_Search_in_a_Binary_Search_Tree/search_in_bst.py)
+
+### 💡 What I Learned:
+- Implemented a **recursive search** in a Binary Search Tree using its key property:
+  - If the target value is smaller than the current node → move left.
+  - If it’s larger → move right.
+  - If equal → return the current node.
+- Practiced **efficient traversal** by leveraging BST ordering, reducing unnecessary recursion.  
+- Strengthened understanding of **recursion**, **base cases**, and **tree search patterns**.  
+- Achieved **O(H)** time complexity, where H = height of the tree (O(log N) for balanced BSTs).
+
+### 📘 Problem Link:
+🔗 [LeetCode 700 — Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
+
+
+---
+
 ### 🏁 Follow My Journey
 📂 Repository: [CodeEveryday-DSA](https://github.com/chikkuduchandu/CodeEveryday-DSA)

@@ -506,5 +506,29 @@ Keep pushing forward — one DSA problem a day 💪🔥
 
 ---
 
+## 🌴 Day 34 — Flatten Binary Tree to Linked List
+**Problem Solved:** LeetCode 114 — Flatten Binary Tree to Linked List  
+**Language:** Python 🐍  
+**Concepts Used:** Binary Tree, Preorder Traversal, Stack, In-place Modification
+
+### 📂 Files:
+- [flatten_binary_tree.py](./Day34_Flatten_Binary_Tree_to_Linked_List/flatten_binary_tree.py)
+
+### 💡 What I Learned:
+- Transformed a binary tree into a **right-skewed linked list** following **preorder traversal**.
+- Used an **iterative approach** with a stack to simulate preorder without recursion.
+- Modified the tree **in-place** by:
+  - Moving left subtree to the right,
+  - Storing original right nodes in a stack,
+  - Setting `left = None` to flatten the structure.
+- Avoided extra data structures like arrays—kept auxiliary space to **O(H)**.
+- Strengthened understanding of **pointer rewiring**, **tree traversal**, and **in-place algorithms**.
+
+### 📘 Problem Link:
+🔗 https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+
+
+---
+
 ### 🏁 Follow My Journey
 📂 Repository: [CodeEveryday-DSA](https://github.com/chikkuduchandu/CodeEveryday-DSA)

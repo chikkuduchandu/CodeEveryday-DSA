@@ -530,5 +530,28 @@ Keep pushing forward — one DSA problem a day 💪🔥
 
 ---
 
+
+## 🌱 Day 35 — Insert Into a Binary Search Tree
+**Problem Solved:** LeetCode 701 — Insert into a Binary Search Tree  
+**Language:** Python 🐍  
+**Concepts Used:** Binary Search Tree (BST), Recursion, Tree Insertion
+
+### 📂 Files:
+- [insert_into_bst.py](./Day35_Insert_Into_Binary_Search_Tree/insert_into_bst.py)
+
+### 💡 What I Learned:
+- Implemented **recursive insertion** in a Binary Search Tree using its core property:
+  - If the value is smaller → insert in the left subtree.
+  - If the value is larger → insert in the right subtree.
+- Used a helper function to keep the insertion clean and structured.
+- Handled the edge case where the BST is initially empty — returning a new root node.
+- Strengthened understanding of **pointer manipulation**, **recursive tree modification**, and **BST operations**.
+- Achieved **O(H)** time complexity, where *H* is the height of the tree (O(log N) for balanced trees).
+
+### 📘 Problem Link:
+🔗 https://leetcode.com/problems/insert-into-a-binary-search-tree/
+
+
+---
 ### 🏁 Follow My Journey
 📂 Repository: [CodeEveryday-DSA](https://github.com/chikkuduchandu/CodeEveryday-DSA)

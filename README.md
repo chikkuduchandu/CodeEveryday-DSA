@@ -553,5 +553,26 @@ Keep pushing forward — one DSA problem a day 💪🔥
 
 
 ---
+
+## 🌳 Day 37 — Kth Smallest Element in a Binary Search Tree
+**Problem Solved:** LeetCode 230 — Kth Smallest Element in BST  
+**Language:** Python 🐍  
+**Concepts Used:** Binary Search Tree (BST), Inorder Traversal, DFS
+
+### 📂 Files:
+- [kth_smallest.py](./Day37_Kth_Smallest_Element_in_BST/kth_smallest.py)
+
+### 💡 What I Learned:
+- Inorder traversal of a BST always produces **sorted values**.
+- Used recursion to gather elements in-order (Left → Node → Right).
+- Once values are sorted, simply returning `values[k-1]` gives the kth smallest.
+- This approach has clean logic and ensures correctness with **O(n)** time and **O(n)** space.
+- Reinforced understanding of **DFS**, **tree traversal**, and **BST properties**.
+
+### 📘 Problem Link:
+🔗 https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+
+
+---
 ### 🏁 Follow My Journey
 📂 Repository: [CodeEveryday-DSA](https://github.com/chikkuduchandu/CodeEveryday-DSA)

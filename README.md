@@ -574,5 +574,33 @@ Keep pushing forward — one DSA problem a day 💪🔥
 
 
 ---
+
+## 🌳 Day 38 — Validate Binary Search Tree
+**Problem Solved:** LeetCode 98 — Validate Binary Search Tree  
+**Language:** Python 🐍  
+**Concepts Used:** Recursion, BST Property, Min–Max Range Validation
+
+### 📂 Files:
+- [validate_bst.py](./Day38_Validate_Binary_Search_Tree/validate_bst.py)
+
+### 💡 What I Learned:
+- A tree is a valid Binary Search Tree only if every node satisfies:
+  **left < node.val < right**
+  (not just immediate children, but the entire subtree range).
+- Used recursion with dynamic boundaries (`left`, `right`) to verify BST validity.
+- This method catches deep BST violations and duplicates effectively.
+- Complexity:
+  - **O(N)** time — each node is checked once.
+  - **O(H)** space — recursion stack (H = height of the tree).
+- Strengthened understanding of:
+  - Global vs local tree constraints,
+  - Recursive boundary propagation,
+  - Classic BST validation technique used in many advanced problems.
+
+### 📘 Problem Link:
+🔗 https://leetcode.com/problems/validate-binary-search-tree/
+
+
+---
 ### 🏁 Follow My Journey
 📂 Repository: [CodeEveryday-DSA](https://github.com/chikkuduchandu/CodeEveryday-DSA)

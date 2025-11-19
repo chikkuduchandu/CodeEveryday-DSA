@@ -602,5 +602,31 @@ Keep pushing forward — one DSA problem a day 💪🔥
 
 
 ---
+
+## 🌳 Day 39 — Lowest Common Ancestor in a Binary Search Tree
+**Problem Solved:** LeetCode 235 — Lowest Common Ancestor of a BST  
+**Language:** Python 🐍  
+**Concepts Used:** Binary Search Tree (BST), Recursion, Tree Traversal
+
+### 📂 Files:
+- [lowest_common_ancestor_bst.py](./Day39_Lowest_Common_Ancestor_BST/lowest_common_ancestor_bst.py)
+
+### 💡 What I Learned:
+- Leveraged the BST property to locate the LCA efficiently:
+  - If both target nodes have values smaller than current → move left.
+  - If both are larger → move right.
+  - Otherwise, the current node is the LCA.
+- This approach avoids visiting unnecessary nodes and reduces the search space based on value comparisons.
+- Strengthened understanding of:
+  - BST ordering rules
+  - Recursive decision-making
+  - Identifying branching points in BSTs
+- Achieved optimal time complexity **O(H)** where H is tree height, with clean recursion.
+
+### 📘 Problem Link:
+🔗 https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+
+
+---
 ### 🏁 Follow My Journey
 📂 Repository: [CodeEveryday-DSA](https://github.com/chikkuduchandu/CodeEveryday-DSA)

@@ -628,5 +628,32 @@ Keep pushing forward — one DSA problem a day 💪🔥
 
 
 ---
+
+
+## 🔢 Day 40 — Subarrays Divisible by K
+**Problem Solved:** LeetCode 974 — Subarrays Divisible by K  
+**Language:** Python 🐍  
+**Concepts Used:** Prefix Sum, HashMap / Frequency Map, Modulo Arithmetic
+
+### 📂 Files:
+- [subarrays_div_by_k.py](./Day40_Subarrays_Divisible_by_K/subarrays_div_by_k.py)
+
+### 💡 What I Learned:
+- Used the **prefix-sum + modulo frequency map** technique to efficiently count subarrays divisible by `k`.
+- Key idea:  
+  If two prefix sums have the **same remainder** modulo `k`, the subarray between them is divisible by `k`.
+- Implemented a dictionary to track frequencies of each remainder.
+- Avoided storing the full prefix array by maintaining prefix sum on the fly.
+- Achieved optimal complexity:  
+  - **Time:** O(n)  
+  - **Space:** O(k)  
+- Strengthened understanding of:
+  - How modulo arithmetic works with negative values  
+  - Efficient subarray counting using frequency maps  
+  - Prefix-based problem patterns
+
+### 📘 Problem Link:
+🔗 https://leetcode.com/problems/subarrays-divisible-by-k/
+---
 ### 🏁 Follow My Journey
 📂 Repository: [CodeEveryday-DSA](https://github.com/chikkuduchandu/CodeEveryday-DSA)

@@ -655,5 +655,29 @@ Keep pushing forward — one DSA problem a day 💪🔥
 ### 📘 Problem Link:
 🔗 https://leetcode.com/problems/subarrays-divisible-by-k/
 ---
+
+## ⚡ Day 41 — Minimum Size Subarray Sum
+**Problem Solved:** LeetCode 209 — Minimum Size Subarray Sum  
+**Language:** Python 🐍  
+**Concepts Used:** Sliding Window, Two Pointers, Subarray Optimization
+
+### 📂 Files:
+- [min_subarray_len.py](./Day41_Minimum_Size_Subarray_Sum/min_subarray_len.py)
+
+### 💡 What I Learned:
+- Used a **sliding window approach** to maintain a dynamic range `[p2, p1]` whose sum meets or exceeds the target.
+- Expanded the window by moving the right pointer and shrank it optimally by moving the left pointer.
+- Ensured maximum efficiency with **O(n)** time complexity since each pointer moves only forward.
+- Learned how to handle:
+  - Subarrays with varying lengths,
+  - Optimizing window shrinking,
+  - Edge case when no subarray satisfies the condition.
+- Reinforced key sliding window pattern applicable to many subarray problems.
+
+### 📘 Problem Link:
+🔗 https://leetcode.com/problems/minimum-size-subarray-sum/
+
+
+---
 ### 🏁 Follow My Journey
 📂 Repository: [CodeEveryday-DSA](https://github.com/chikkuduchandu/CodeEveryday-DSA)

@@ -679,5 +679,30 @@ Keep pushing forward — one DSA problem a day 💪🔥
 
 
 ---
+
+
+## ⚡ Day 42 — Container With Most Water
+**Problem Solved:** LeetCode 11 — Container With Most Water  
+**Language:** Python 🐍  
+**Concepts Used:** Two Pointers, Greedy Approach, Optimization
+
+### 📂 Files:
+- [max_water_container.py](./Day42_Container_With_Most_Water/max_water_container.py)
+
+### 💡 What I Learned:
+- Applied the **two-pointer technique** starting from both ends of the array.
+- Calculated the area using the distance between pointers and the smaller height.
+- Moved the pointer with the **smaller height** inward to explore more optimal boundaries.
+- Reduced the complexity from a brute-force **O(n²)** to an optimal **O(n)**.
+- Strengthened understanding of:
+  - How greedy + two-pointer logic improves efficiency,
+  - How boundary selection impacts maximum area,
+  - Systematic pointer movement for optimal results.
+
+### 📘 Problem Link:
+🔗 https://leetcode.com/problems/container-with-most-water/
+
+
+---
 ### 🏁 Follow My Journey
 📂 Repository: [CodeEveryday-DSA](https://github.com/chikkuduchandu/CodeEveryday-DSA)
